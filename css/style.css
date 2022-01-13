@@ -107,6 +107,8 @@ body.dark .display {
   text-align: center;
   font-size: 20px;
   color: var(--btn-color);
+  box-shadow: 4px 4px 8px 0 rgba(15, 16, 17, 0.7),
+    -6px -6px 8px 0 rgb(27, 29, 31);
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -127,6 +129,8 @@ body.dark .button:first-child {
 
 body.dark .button {
   background-color: var(--btn-bg-lt-color);
+  box-shadow: 4px 4px 8px 0 rgba(177, 204, 255, 0.7),
+    -6px -6px 8px 0 rgb(255, 255, 255);
 }
 body.dark .button:hover {
   background-color: var(--hover-lt-color);
