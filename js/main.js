@@ -7,6 +7,9 @@ let display = document.querySelector(".display"),
   body = document.querySelector("body"),
   dark = true;
 
+let audio = new Audio();
+audio.src = "./click-2.mp3";
+
 switchBtn.addEventListener("click", () => {
   body.classList.toggle("dark");
   if (dark) {
@@ -20,6 +23,7 @@ switchBtn.addEventListener("click", () => {
 
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
+    audio.play();
     switch (e.target.innerText) {
       case "Ac":
         display.innerText = "";

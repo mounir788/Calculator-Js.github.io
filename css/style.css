@@ -22,6 +22,7 @@ body {
   align-items: center;
   height: 100vh;
   background: rgba(218, 240, 255, 1);
+  overflow: hidden;
 }
 .circle {
   position: absolute;
